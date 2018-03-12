@@ -1,0 +1,60 @@
+.global {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    font-family: 'Kalam', cursive;
+}
+
+.heading {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 80px;
+    text-align: center;
+}
+
+.game-instructions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instructions {
+    font-size: 16px;
+    text-align: center;
+    border: 2px dotted black;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.random-number {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 70px;
+    text-align: center;
+}
+
+.crystals {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.game-play {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.counters {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/* font-family: 'Cabin Sketch', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Kalam', cursive; */
